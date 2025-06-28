@@ -5,6 +5,7 @@ import { HousingLocation } from './housing-location';
   providedIn: 'root'
 })
 export class HousingService {
+
   url = 'http://localhost:3000/locations'
 
   constructor() { }
