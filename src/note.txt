@@ -1,0 +1,13 @@
+-Typescript Component Class: developers a place to build their application logic. Consider this to be the place where one may make API calls for data or define event 
+
+-!The non-null assertion: The exclamation point is the non-null assertion operator, and it tells Typescript compiler that hthe value of this property won't be undefined
+
+-Property binding [] : Property binding allows us to tell Angular that the value in quotes should be an actual property from the component class. e.g [src]
+
+-Angular's interpolation {{ }} : The double curly braces are used for Angular's interpolation syntax We can use that to mix in values and expressions into strings in our templates.
+
+route: ActivatedRoute = inject(ActivatedRoute): The activated route is a reference to the current route we're matched against in the application. From there, we can get access to the vital route information, including the parameters we need to find our data.
+
+-Event binding ():  submit is an event and when we want to bind to events like click, we use parentheses as the syntax that signals we're performing an event binding.
+
+?? nullish coalescing operator : The nullish coalescing operator (??) is a logical operator that returns the right-hand side operand when the left-hand side operand is null or undefined, and otherwise returns the left-hand side operand.
